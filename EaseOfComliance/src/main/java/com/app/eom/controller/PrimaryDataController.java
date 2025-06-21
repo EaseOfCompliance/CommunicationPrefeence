@@ -1,3 +1,4 @@
+/*
 package com.app.eom.controller;
 
 import java.io.IOException;
@@ -77,14 +78,16 @@ public class PrimaryDataController {
 	
 	
 	
-	/*
+	*/
+/*
 	 * @RequestMapping(value="/districts/",method=RequestMethod.GET) public
 	 * List<District> getDistricts() {
 	 * 
 	 * LOGGER.info("finding district by id :"); return districtrepository.findAll();
 	 * 
 	 * }
-	 */
+	 *//*
+
 	
 	@SuppressWarnings("unchecked")
 	@CrossOrigin(origins = "http://localhost:3000")
@@ -93,7 +96,7 @@ public class PrimaryDataController {
 		
 		LOGGER.info("finding district by id :");
 		//return districtrepository.findAll();
-		 return new ResponseEntity<>(districtrepository.findAll(), HttpStatus.OK);
+		// return new ResponseEntity<>(districtrepository.findAll(), HttpStatus.OK);
 		
 	}
 	
@@ -137,16 +140,19 @@ public class PrimaryDataController {
 	 
 	
 	
-	/*
+	*/
+/*
 	 * @RequestMapping(value="/submitrequest/",method=RequestMethod.POST) public
 	 * Request submitRequest(@RequestBody Request request) { return
 	 * requestrepository.save(request);
 	 * 
 	 * }
-	 */
+	 *//*
+
 	
 	
-	/*
+	*/
+/*
 	 * @RequestMapping(value="/getrequest/{id}",method=RequestMethod.GET) public
 	 * List<Request> getRequest(@PathVariable("id") String id) {
 	 * 
@@ -155,7 +161,8 @@ public class PrimaryDataController {
 	 * 
 	 * 
 	 * }
-	 */
+	 *//*
+
 	
 
 
@@ -199,3 +206,4 @@ public class PrimaryDataController {
 
 
 }
+*/
